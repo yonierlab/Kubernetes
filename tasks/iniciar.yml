@@ -1,9 +1,0 @@
----
-- name: Iniciar servicios
-  systemd:
-    name: "{{ item }}"
-    state: started
-    enabled: true
-  with_items: "{{ srv }}"
-  tags: iniciarsrv
-...

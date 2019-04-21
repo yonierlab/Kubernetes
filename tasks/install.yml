@@ -1,6 +1,0 @@
----
-- name: Install pkg
-  yum:
-    name: "{{ pkg }}"
-    state: latest
-...
