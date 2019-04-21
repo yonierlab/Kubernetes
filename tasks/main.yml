@@ -1,0 +1,18 @@
+---
+# tasks file for k8s
+- import_tasks: install.yml
+  tags: instalar
+
+- import_tasks: seguridad.yml
+  tags: seguridad
+
+- import_tasks: config.yml
+  tags: config
+
+- import_tasks: iniciar.yml
+  tags: start
+
+- import_tasks: flanneld.yml
+  tags: flanneld
+
+...
