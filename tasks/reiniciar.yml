@@ -1,0 +1,6 @@
+---
+- name: Reiniciar server
+  command:
+    cmd: systemctl reboot
+  tags: reiniciar
+...
